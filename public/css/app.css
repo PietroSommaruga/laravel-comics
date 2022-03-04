@@ -12176,7 +12176,6 @@ fieldset:disabled .btn {
 footer {
   width: 1200px;
   /* Mid section */
-  /* End section */
 }
 
 footer .top-footer,
@@ -12188,6 +12187,7 @@ footer .spam-cont {
 footer .top-footer {
   height: 160px;
   width: 100%;
+  position: relative;
   background-color: #0282f9;
 }
 
@@ -12213,55 +12213,54 @@ footer .mid-footer {
   background: url("/img/footer-bg.jpg") no-repeat;
   height: 600px;
   background-size: cover;
-}
-
-footer .mid-footer .links-lists {
   display: flex;
   margin-bottom: 20px;
 }
 
-footer .mid-footer .links-lists h3,
-footer .mid-footer .links-lists .h3 {
+footer .mid-footer h3,
+footer .mid-footer .h3 {
   margin: 18px 0;
   color: white;
 }
 
-footer .mid-footer .links-lists ul {
+footer .mid-footer ul {
   flex-direction: column;
   color: #838689;
 }
 
-footer .mid-footer .links-lists ul li {
+footer .mid-footer ul li {
   font-size: 12px;
   margin-top: 5px;
   cursor: pointer;
 }
 
-footer .mid-footer .links-lists ul li:hover {
+footer .mid-footer ul li:hover {
   color: #bdbdbd;
 }
 
-footer .mid-footer .links-lists .single-list {
+footer .mid-footer .single-list {
   margin-right: 40px;
 }
 
-footer .mid-footer .links-lists .comics-shop {
+footer .mid-footer .comics-shop {
   display: flex;
   flex-direction: column;
 }
 
-footer .mid-footer .policy {
+footer .policy {
   font-size: 12px;
-  margin-bottom: 15px;
+  margin: 20px 0;
   color: #838689;
 }
 
-footer .mid-footer .policy .cookie,
-footer .mid-footer .policy span {
+footer .policy .cookie,
+footer .policy span {
   color: #0282f9;
 }
 
-footer .footer-social {
+/* End section */
+
+.footer-social {
   height: 100px;
   background-color: #303030;
   display: flex;
@@ -12270,7 +12269,7 @@ footer .footer-social {
   align-items: center;
 }
 
-footer .footer-social input {
+.footer-social input {
   background-color: transparent;
   height: 50px;
   width: 150px;
@@ -12281,22 +12280,22 @@ footer .footer-social input {
   cursor: pointer;
 }
 
-footer .footer-social input:hover {
+.footer-social input:hover {
   background-color: #0282f9;
 }
 
-footer .footer-social nav {
+.footer-social nav {
   display: flex;
   align-items: center;
 }
 
-footer .footer-social nav h3,
-footer .footer-social nav .h3 {
+.footer-social nav h3,
+.footer-social nav .h3 {
   color: #0282f9;
   margin: 0 30px 0 0;
 }
 
-footer .footer-social nav ul li {
+.footer-social nav ul li {
   margin-right: 20px;
 }
 
@@ -12372,7 +12371,7 @@ main .card-container .comic-card {
 
 main .card-container .comic-card img {
   width: 150px;
-  height: 200px;
+  height: 150px;
 }
 
 main .card-container .comic-card .text {

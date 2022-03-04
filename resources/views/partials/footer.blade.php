@@ -14,7 +14,7 @@
 {{--  --}}
 <div class="mid-footer d-flex justify-content-around">
   <div>
-    <div class="links-lists">
+    <div class="links-lists d-flex">
       <div class="single-list comics-shop">
         <h3>DC COMICS</h3>
         <ul>

@@ -18,3 +18,10 @@ Route::get('/', function () {
     
     return view('home', compact('array'));
 })->name("home");
+
+
+Route::get('/charachters', function () {
+    
+    return view('charachters');
+})->name("charachters");
+ 

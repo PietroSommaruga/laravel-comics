@@ -32,26 +32,25 @@ width: 1200px;
 .mid-footer {
     background: url("/img/footer-bg.jpg") no-repeat;
     height: 600px;
-    background-size: cover;
-    
-    justify-content: space-around;
-    
-    .logo-bg {
-        height: 575px;
-    }
-    .links-lists {
+    background-size: cover;    
+    .links-lists{
         display: flex;
         margin-bottom: 20px;
         h3 {
             margin: 18px 0;
             color: white;
         }
+        
         ul {
             flex-direction: column;
             color: #838689;
             li {
                 font-size: 12px;
                 margin-top: 5px;
+                cursor: pointer;
+                &:hover {
+                    color: #bdbdbd;
+                }
             }
         }
         .single-list {
@@ -76,7 +75,7 @@ width: 1200px;
 }
 
 /* End section */
-.spam-cont {
+.footer-social {
     height: 100px;
     background-color: #303030;
     display: flex;

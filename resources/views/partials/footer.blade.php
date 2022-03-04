@@ -12,7 +12,7 @@
 </div>
 
 {{--  --}}
-<div class="mid-footer d-flex">
+<div class="mid-footer d-flex justify-content-around">
   <div>
     <div class="links-lists">
       <div class="single-list comics-shop">
@@ -72,7 +72,7 @@
 </div>
 
 {{--  --}}
-<div class="spam-cont">
+<div class="footer-social">
   <input type="button" value="SIGN-UP NOW!" />
   <nav>
     <h3>FOLLOW US</h3>

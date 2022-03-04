@@ -12213,11 +12213,6 @@ footer .mid-footer {
   background: url("/img/footer-bg.jpg") no-repeat;
   height: 600px;
   background-size: cover;
-  justify-content: space-around;
-}
-
-footer .mid-footer .logo-bg {
-  height: 575px;
 }
 
 footer .mid-footer .links-lists {
@@ -12239,6 +12234,11 @@ footer .mid-footer .links-lists ul {
 footer .mid-footer .links-lists ul li {
   font-size: 12px;
   margin-top: 5px;
+  cursor: pointer;
+}
+
+footer .mid-footer .links-lists ul li:hover {
+  color: #bdbdbd;
 }
 
 footer .mid-footer .links-lists .single-list {
@@ -12261,7 +12261,7 @@ footer .mid-footer .policy span {
   color: #0282f9;
 }
 
-footer .spam-cont {
+footer .footer-social {
   height: 100px;
   background-color: #303030;
   display: flex;
@@ -12270,7 +12270,7 @@ footer .spam-cont {
   align-items: center;
 }
 
-footer .spam-cont input {
+footer .footer-social input {
   background-color: transparent;
   height: 50px;
   width: 150px;
@@ -12281,22 +12281,22 @@ footer .spam-cont input {
   cursor: pointer;
 }
 
-footer .spam-cont input:hover {
+footer .footer-social input:hover {
   background-color: #0282f9;
 }
 
-footer .spam-cont nav {
+footer .footer-social nav {
   display: flex;
   align-items: center;
 }
 
-footer .spam-cont nav h3,
-footer .spam-cont nav .h3 {
+footer .footer-social nav h3,
+footer .footer-social nav .h3 {
   color: #0282f9;
   margin: 0 30px 0 0;
 }
 
-footer .spam-cont nav ul li {
+footer .footer-social nav ul li {
   margin-right: 20px;
 }
 
@@ -12331,7 +12331,12 @@ header nav ul li {
   cursor: pointer;
   display: flex;
   align-items: center;
-  transition: box-shadow 0.3s;
+  transition: box-shadow 0.5s;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
 }
 
 header nav ul li:hover {

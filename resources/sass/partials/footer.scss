@@ -17,6 +17,7 @@ width: 1200px;
             color: white;
             font-size: 15px;
             padding: 35px;
+            cursor: pointer;
             img {
                 height: 55px;
                 margin-right: 16px;
@@ -33,7 +34,6 @@ width: 1200px;
     background: url("/img/footer-bg.jpg") no-repeat;
     height: 600px;
     background-size: cover;    
-    .links-lists{
         display: flex;
         margin-bottom: 20px;
         h3 {

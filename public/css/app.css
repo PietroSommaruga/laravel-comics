@@ -12188,7 +12188,6 @@ footer .spam-cont {
 footer .top-footer {
   height: 160px;
   width: 100%;
-  position: relative;
   background-color: #0282f9;
 }
 
@@ -12198,6 +12197,7 @@ footer .top-footer ul li {
   color: white;
   font-size: 15px;
   padding: 35px;
+  cursor: pointer;
 }
 
 footer .top-footer ul li img {
